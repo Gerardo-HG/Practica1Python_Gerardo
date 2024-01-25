@@ -1,0 +1,5 @@
+consumo_comida=int(input("Ingrese cuanto es su consumo en el restaurante en soles: "))
+porcentaje_propina=int(input("Cuanto de porcentaje desea dejar al mesero %:  "))
+propina=float(consumo_comida*(porcentaje_propina/100))
+print("\n")
+print("La propina que recibe el mesero es de {} soles".format(propina)) 
